@@ -9,7 +9,7 @@ function GameOver() {
   };
   return (
     <div className="gameOver">
-      <h3>
+      <h3 className="gameOver1">
         {gameOver.guessedWord
           ? "Kamu benar menebak kata"
           : "Kamu gagal menebak kata"}
