@@ -4,12 +4,12 @@ import { AppContext } from "../App";
 export const Key = ({ keyVal, bigKey, disabled }) => {
   const { onDelete, onEnter, onSelectLetter } = useContext(AppContext);
   const selectLetter = () => {
-    if (keyVal === "ENTER") {
+    if (keyVal === "ETR") {
       onEnter();
-    } else if (keyVal === "DELETE") {
+    } else if (keyVal === "DEL") {
       onDelete();
     } else {
-      onSelectLetter(keyVal);
+      onSelectLetter(keyVal) && onSelectLetter();
     }
   };
   return (

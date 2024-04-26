@@ -54,11 +54,11 @@ export const Keyboard = () => {
         })}
       </div>
       <div className="line3">
-        <Key keyVal={"ENTER"} bigKey />
+        <Key keyVal={"ETR"} bigKey />
         {keys3.map((key) => {
           return <Key keyVal={key} disabled={disabledLetters.includes(key)} />;
         })}
-        <Key keyVal={"DELETE"} bigKey />
+        <Key keyVal={"DEL"} bigKey />
       </div>
     </div>
   );

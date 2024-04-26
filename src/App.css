@@ -40,7 +40,7 @@ nav h1 {
 
 .board {
   width: 80vw;
-  height: 300vh;
+  height: 44vh;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@ nav h1 {
 
 .key {
   padding: 5px;
-  width: 17px;
+  width: 35px;
   height: auto;
   margin: 2px;
   border-radius: 4px;
