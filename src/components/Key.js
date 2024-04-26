@@ -9,7 +9,7 @@ export const Key = ({ keyVal, bigKey, disabled }) => {
     } else if (keyVal === "DELETE") {
       onDelete();
     } else {
-      onSelectLetter();
+      onSelectLetter(keyVal);
     }
   };
   return (
